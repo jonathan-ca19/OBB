@@ -7,13 +7,13 @@ class persona:
         self.nombre    = nombre
         self.apellido  = apellido
         
-        def imprimir(self):
-            print(self.nombre, self.apellido)
+    def imprimir(self):
+        print(self.nombre, self.apellido)
             
 x = persona("Alexander", "flores")
 x.imprimir()
 
-#
+#Herencia simple en python
 
 class estudiante(persona):
     pass 
